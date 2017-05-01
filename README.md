@@ -1,6 +1,7 @@
-## I need node >= 6.7.0
+## My own personal website
 
-If you don't have it, I'll complain and tell you how to install it.
+This is my fun little project. It is built using a skeleton cloned from [https://github.com/glebec/bones].
+I will be putting all my project works and my contact info on this page. 
 
 ## 1. Make me into something!
 
@@ -28,13 +29,6 @@ version by doing this again:
 git fetch bones
 git merge bones/master
 ```
-
-## 2. I need a name.
-
-I don't have a name. I think I used to have one, but it turned to dust right along with my
-heart and liver and pituitary gland and all that stuff.
-
-Anyway, I'll need one. Give me a name in `package.json`.
 
 ## 3. Start my dusty heart
 
