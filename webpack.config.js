@@ -1,7 +1,7 @@
 'use strict'; // eslint-disable-line semi
 
-const LiveReloadPlugin = require('webpack-livereload-plugin')
-const devMode = process.env.NODE_ENV === 'development'
+const LiveReloadPlugin = require('webpack-livereload-plugin');
+const devMode = process.env.NODE_ENV === 'development';
 
 /**
  * Fast source maps rebuild quickly during development, but only give a link
@@ -10,7 +10,7 @@ const devMode = process.env.NODE_ENV === 'development'
  * usable stack traces. Set to `true` if you want to speed up development.
  */
 
-const USE_FAST_SOURCE_MAPS = false
+const USE_FAST_SOURCE_MAPS = false;
 
 const config = {
   entry: './app/main.jsx',
@@ -34,17 +34,17 @@ const config = {
     }]
   },
   plugins: []
-}
+};
 
 if (devMode) {
   config.devtool = USE_FAST_SOURCE_MAPS
     ? 'cheap-module-eval-source-map'
-    : 'source-map'
+    : 'source-map';
   config.plugins.push(
     new LiveReloadPlugin({
       appendScriptTag: true
     })
-  )
+  );
 }
 
-module.exports = config
+module.exports = config;

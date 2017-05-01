@@ -1,9 +1,3 @@
-# Hi, I'm bones
-
-I'm a happy little skeleton. You can clone me to use as a starter on your projects!
-I have React, Redux, Sequelize, and Express all just rattling around in here ready
-to go.
-
 ## I need node >= 6.7.0
 
 If you don't have it, I'll complain and tell you how to install it.
