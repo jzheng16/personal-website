@@ -1,44 +1,9 @@
-## I need node >= 6.7.0
+## My own personal website
 
-If you don't have it, I'll complain and tell you how to install it.
+This is my fun little project. It is built using a skeleton cloned from [https://github.com/glebec/bones].
+I will be putting all my project works and my contact info on this page. 
 
-## 1. Make me into something!
-
-We recommend that you **clone**, not fork, this repo – unless your intention is
-to develop Bones proper instead of using Bones as the starting point for your
-own application.
-
-Start by doing either of the following:
-
-* Create a GitHub repo and clone it, or
-* `git init` in an empty directory on your machine.
-
-After you have a repo on your machine:
-
-```sh
-git remote add bones https://github.com/glebec/bones.git
-git fetch bones
-git merge bones/master
-```
-
-And then you'll have me! If I change – which I probably will – you can get the most recent
-version by doing this again:
-
-```sh
-git fetch bones
-git merge bones/master
-```
-
-## 2. I need a name.
-
-I don't have a name. I think I used to have one, but it turned to dust right along with my
-heart and liver and pituitary gland and all that stuff.
-
-Anyway, I'll need one. Give me a name in `package.json`.
-
-## 3. Start my dusty heart
-
-Short and sweet:
+To start:
 
 ```sh
 npm install
